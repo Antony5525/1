@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+   max-width: 1146px;
+   margin: auto;
+   width: 100%;
+}
+header {
+    background-image: url(./bg.jpg);
+    height: 589px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 24px;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+
+    margin-right: 25px;
+}
+
+
+section {
+    min-height: 100vh;
+}
+
+footer a {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(./bgfoot.jpg);
+    height: 494px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-foot {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 25px;
+    padding-top: 35px;
+}
+
+.container2 {
+    max-width: 1148px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.footer-logo {
+    padding-top: 40px;
+    padding-left: 94px;
+}
+
+.footer-rekviz {
+    padding-top: 37px;
+}
+
