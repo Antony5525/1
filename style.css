@@ -15,25 +15,56 @@ header {
     padding: 24px 3px;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 .header-top {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.nav-link {
+.header-logo-wrapper {
+    min-width: 180px;
+    width: 20%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    max-width: 600px;
+}
+
+.header-nav__link {
     color: #141515;
-    margin-right: 90px;
 }
 
-.header-top-phone a {
-color: #000000;
-font-family: 'Rubik', sans-serif;
+.selected::before {
+    content: ">"
+}
+
+.header-top-phone {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-width: 180px;
+    width: 20%;
+}
+
+.header-top-phone__link {
+    color: #000000;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 8px;
 }
 
 .header-top-logo {
-    margin-right: 250px;
+    
 }
 
 .nav-link:nth-child(4) {
