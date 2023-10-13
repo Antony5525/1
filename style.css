@@ -18,6 +18,8 @@ body {
 header {
     background-color: white;
     padding: 24px 3px;
+    position: sticky;
+    top: 0;
 }
 
 .container {
@@ -100,6 +102,8 @@ footer {
     position: relative;
     background-color: #141515;
     padding-top: calc(2 * var(--spacer));
+    position: sticky;
+    bottom: 0;
 }
 
 .footer-top {
