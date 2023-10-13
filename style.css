@@ -1,3 +1,8 @@
+:root {
+    --spacer: 10px;
+    --links-lolor: white;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
@@ -159,7 +164,7 @@ footer {
 }
 
 .footer-top-title {
-    color: var(--links-lolor)
+    color: var(--links-lolor);
 }
 
 .footer-nav {
@@ -174,6 +179,7 @@ footer {
     align-items: center;
     margin-top: calc(var(--spacer) / 2);
     color:#FFFFFF;
+    padding-top: calc(var(--spacer) / 1);
 }
 
 .footer-pageup {
