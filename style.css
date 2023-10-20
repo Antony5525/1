@@ -6,6 +6,9 @@
 body {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -18,8 +21,6 @@ body {
 header {
     background-color: white;
     padding: 24px 3px;
-    position: sticky;
-    top: 0;
 }
 
 .container {
@@ -27,7 +28,6 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 
 .header-top {
     display: flex;
@@ -79,6 +79,8 @@ main {
     height: 100vh;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-grow: 1;
 }
 
 .main-title {
@@ -102,8 +104,6 @@ footer {
     position: relative;
     background-color: #141515;
     padding-top: calc(2 * var(--spacer));
-    position: sticky;
-    bottom: 0;
 }
 
 .footer-top {
@@ -191,3 +191,13 @@ footer {
     bottom: var(--spacer);
     right: var(--spacer);
 }
+
+@media screen and (max-width: 920px) {
+    header {
+    display: none;
+    }    
+
+    footer {
+    display: none;
+    }    
+    }
