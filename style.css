@@ -100,6 +100,30 @@ main {
     padding-top: 181px;
 }
 
+.main3-nav {
+    display: flex;
+
+    width: 362px;
+    height: 362px;
+}
+
+.services-top {
+    align-items: center;
+    width: auto;
+    height: 60px;
+    background-color: #141515;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.services__link2 {
+    
+    color: var(--links-lolor);
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 27px;
+}
+
 footer {
     position: relative;
     background-color: #141515;
@@ -182,6 +206,7 @@ footer {
     margin-top: calc(var(--spacer) / 2);
     color:#FFFFFF;
     padding-top: calc(var(--spacer) / 1);
+    padding-right: auto;
 }
 
 .footer-pageup {
